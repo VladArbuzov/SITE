@@ -1,0 +1,155 @@
+
+nav {
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+  }
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+    float: right;
+  }
+  
+nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+
+  #header {
+    position: relative;
+  }
+  
+  #header_img {
+    width: 100%;
+    height: 700px;
+  }
+  
+  #header_text {
+    font-size: 70px;
+    position: absolute;
+    text-align: center;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    color:beige;
+  }
+  
+  table td {
+    max-width: 600px;
+    max-height: 400px;
+  }
+
+  table {
+    text-align: center;
+    border: 3px solid gray;
+    border-radius: 20px;
+  }
+
+  table img {
+    width: 90%;
+    height: 90%;
+    margin-top: 3%;
+    border: 1px solid gray;
+    border-radius: 10px;
+  }
+
+  table button {
+    width: 90%;
+    height: 40px;
+
+    margin-bottom: 7px;
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+    border-radius: 7px;
+  }
+
+  #table {
+    display: flex;
+  }
+
+  #table table {
+    flex: 1;
+    margin: 0 15px;
+  }
+
+  #body {
+    margin-left: 40px;
+  }
+
+  h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 30px;
+  }
+
+  ul {
+    font-size: 30px;
+  }
+
+  label {
+    font-size: 30px;
+  }
+
+  input {
+    font-size: 30px;
+  }
+
+  #body img {
+    width: 70%;
+    height: 70%;
+    max-width: 800px;
+    max-height: 600px;
+    margin-top: 3%;
+    border: 1px solid gray;
+    border-radius: 10px;
+  }
+
+  #Contacts button {
+      width: 90%;
+      height: 40px;
+      max-width: 500px;
+      margin-bottom: 7px;
+      background-color: black;
+      color: white;
+      border: 3px solid black;
+      border-radius: 7px;
+  }
+
+  #to_start{
+    position: fixed;
+    bottom: 70px;
+    right: 40px;
+    width: 60px;
+    text-align: center;
+    z-index: 100;
+  }
+
+  #to_end {
+      position: fixed;
+      bottom: 20px;
+      right: 40px;
+      width: 60px;
+      text-align: center;
+      z-index: 100;
+  }
+
+  #submit {
+    width: 90%;
+    height: 40px;
+    max-width: 320px;
+    margin-bottom: 7px;
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+    border-radius: 7px;
+  }
+
